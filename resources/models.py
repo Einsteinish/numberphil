@@ -52,7 +52,7 @@ class ResourceType(models.Model):
 class Resource(models.Model):
     title = models.CharField(max_length=255, unique=True)
     slug = models.SlugField(max_length=255, blank=True, default='')
-    url = models.URLField(unique=False)
+    url = models.URLField(unique=True)
     help_text = models.CharField(max_length=255, null=True, blank=True)
     description = models.TextField(null=True, blank=True, default='')
     DEFAULT_RESOURCE_TYPE_ID=2
