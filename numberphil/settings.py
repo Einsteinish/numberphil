@@ -205,9 +205,9 @@ DATABASES = {
 }
 
 # Moved to local_settings.py
-#SITE_ID = 1   # example.com       
-#SITE_ID = 2   # numberphil.com       
-SITE_ID = 3   # localhost:8000
+#SITE_ID = 1  # example.com       
+#SITE_ID = 2  # localhost:8000
+SITE_ID = 3   # numberphi.com 
 
 # Moved to local_settings.py
 EMAIL_HOST = 'smtp.gmail.com'
